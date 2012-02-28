@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  lilyhair
+
+  Created by  on 11-10-27.
+  Copyright (c) 2011年 __MyCompanyName__. All rights reserved.
+*/
+"Edit Photo" = "编辑照片";
+"Change Hair"="更换发型";
+"Message"="消息";
+"Saved"="已经保存到图库";
+"OK"="确定";
