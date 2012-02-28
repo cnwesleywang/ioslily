@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E5D561614BE65E600DB58A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5D561514BE65E600DB58A9 /* UIKit.framework */; };
+		2E5D561814BE65E600DB58A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5D561714BE65E600DB58A9 /* Foundation.framework */; };
+		2E5D561A14BE65E600DB58A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5D561914BE65E600DB58A9 /* CoreGraphics.framework */; };
+		2E5D562014BE65E600DB58A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E5D561E14BE65E600DB58A9 /* InfoPlist.strings */; };
+		2E5D562214BE65E700DB58A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5D562114BE65E700DB58A9 /* main.m */; };
+		2E5D562614BE65E700DB58A9 /* LuckboyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5D562514BE65E700DB58A9 /* LuckboyAppDelegate.m */; };
+		2E5D562914BE65E700DB58A9 /* LuckboyMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5D562814BE65E700DB58A9 /* LuckboyMainViewController.m */; };
+		2E5D562C14BE65E700DB58A9 /* LuckboyFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5D562B14BE65E700DB58A9 /* LuckboyFlipsideViewController.m */; };
+		2E5D562F14BE65E700DB58A9 /* LuckboyMainViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E5D562D14BE65E700DB58A9 /* LuckboyMainViewController_iPhone.xib */; };
+		2E5D563214BE65E700DB58A9 /* LuckboyMainViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E5D563014BE65E700DB58A9 /* LuckboyMainViewController_iPad.xib */; };
+		2E5D563514BE65E700DB58A9 /* LuckboyFlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E5D563314BE65E700DB58A9 /* LuckboyFlipsideViewController.xib */; };
+		2E5D565014BE6D6A00DB58A9 /* ELCAlbumPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5D563D14BE6D6A00DB58A9 /* ELCAlbumPickerController.m */; };
+		2E5D565114BE6D6A00DB58A9 /* ELCAlbumPickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E5D563E14BE6D6A00DB58A9 /* ELCAlbumPickerController.xib */; };
+		2E5D565214BE6D6A00DB58A9 /* ELCAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5D564014BE6D6A00DB58A9 /* ELCAsset.m */; };
+		2E5D565314BE6D6A00DB58A9 /* ELCAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5D564214BE6D6A00DB58A9 /* ELCAssetCell.m */; };
+		2E5D565414BE6D6A00DB58A9 /* ELCAssetPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E5D564314BE6D6A00DB58A9 /* ELCAssetPicker.xib */; };
+		2E5D565514BE6D6A00DB58A9 /* ELCAssetTablePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5D564514BE6D6A00DB58A9 /* ELCAssetTablePicker.m */; };
+		2E5D565614BE6D6A00DB58A9 /* ELCAssetTablePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E5D564614BE6D6A00DB58A9 /* ELCAssetTablePicker.xib */; };
+		2E5D565714BE6D6A00DB58A9 /* ELCImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5D564814BE6D6A00DB58A9 /* ELCImagePickerController.m */; };
+		2E5D565814BE6D6A00DB58A9 /* ELCImagePickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E5D564914BE6D6A00DB58A9 /* ELCImagePickerController.xib */; };
+		2E5D565914BE6D6A00DB58A9 /* ELCImagePickerDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5D564B14BE6D6A00DB58A9 /* ELCImagePickerDemoAppDelegate.m */; };
+		2E5D565A14BE6D6A00DB58A9 /* ELCImagePickerDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5D564D14BE6D6A00DB58A9 /* ELCImagePickerDemoViewController.m */; };
+		2E5D565B14BE6D6A00DB58A9 /* Overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E5D564E14BE6D6A00DB58A9 /* Overlay.png */; };
+		2E5D565C14BE6D6A00DB58A9 /* Overlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E5D564F14BE6D6A00DB58A9 /* Overlay@2x.png */; };
+		2E5D565E14BE6FF600DB58A9 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5D565D14BE6FF600DB58A9 /* AssetsLibrary.framework */; };
+		2EEAEAC014C59DE20099D57E /* MyTapGR.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EEAEABF14C59DE20099D57E /* MyTapGR.m */; };
+		56055A0414BFD952007CB814 /* luckd.png in Resources */ = {isa = PBXBuildFile; fileRef = 56055A0314BFD952007CB814 /* luckd.png */; };
+		56055A0A14C012FA007CB814 /* luckp.png in Resources */ = {isa = PBXBuildFile; fileRef = 56055A0914C012FA007CB814 /* luckp.png */; };
+		56055A1814C023FA007CB814 /* wjx.png in Resources */ = {isa = PBXBuildFile; fileRef = 56055A1514C023FA007CB814 /* wjx.png */; };
+		56055A1C14C025DC007CB814 /* wjx1.png in Resources */ = {isa = PBXBuildFile; fileRef = 56055A1B14C025DC007CB814 /* wjx1.png */; };
+		56055A1E14C0266A007CB814 /* 标志2.png in Resources */ = {isa = PBXBuildFile; fileRef = 56055A1D14C0266A007CB814 /* 标志2.png */; };
+		565CCDF714BFCD5D0011373F /* pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 565CCDF614BFCD5D0011373F /* pic.png */; };
+		565CCDFA14BFCDA20011373F /* picd.png in Resources */ = {isa = PBXBuildFile; fileRef = 565CCDF914BFCDA20011373F /* picd.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E5D561114BE65E600DB58A9 /* luckboy2012.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = luckboy2012.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E5D561514BE65E600DB58A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2E5D561714BE65E600DB58A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2E5D561914BE65E600DB58A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2E5D561D14BE65E600DB58A9 /* luckboy2012-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "luckboy2012-Info.plist"; sourceTree = "<group>"; };
+		2E5D561F14BE65E600DB58A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2E5D562114BE65E700DB58A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E5D562314BE65E700DB58A9 /* luckboy2012-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "luckboy2012-Prefix.pch"; sourceTree = "<group>"; };
+		2E5D562414BE65E700DB58A9 /* LuckboyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LuckboyAppDelegate.h; sourceTree = "<group>"; };
+		2E5D562514BE65E700DB58A9 /* LuckboyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuckboyAppDelegate.m; sourceTree = "<group>"; };
+		2E5D562714BE65E700DB58A9 /* LuckboyMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LuckboyMainViewController.h; sourceTree = "<group>"; };
+		2E5D562814BE65E700DB58A9 /* LuckboyMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuckboyMainViewController.m; sourceTree = "<group>"; };
+		2E5D562A14BE65E700DB58A9 /* LuckboyFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LuckboyFlipsideViewController.h; sourceTree = "<group>"; };
+		2E5D562B14BE65E700DB58A9 /* LuckboyFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuckboyFlipsideViewController.m; sourceTree = "<group>"; };
+		2E5D562E14BE65E700DB58A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LuckboyMainViewController_iPhone.xib; sourceTree = "<group>"; };
+		2E5D563114BE65E700DB58A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LuckboyMainViewController_iPad.xib; sourceTree = "<group>"; };
+		2E5D563414BE65E700DB58A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LuckboyFlipsideViewController.xib; sourceTree = "<group>"; };
+		2E5D563C14BE6D6A00DB58A9 /* ELCAlbumPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAlbumPickerController.h; sourceTree = "<group>"; };
+		2E5D563D14BE6D6A00DB58A9 /* ELCAlbumPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAlbumPickerController.m; sourceTree = "<group>"; };
+		2E5D563E14BE6D6A00DB58A9 /* ELCAlbumPickerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELCAlbumPickerController.xib; sourceTree = "<group>"; };
+		2E5D563F14BE6D6A00DB58A9 /* ELCAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAsset.h; sourceTree = "<group>"; };
+		2E5D564014BE6D6A00DB58A9 /* ELCAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAsset.m; sourceTree = "<group>"; };
+		2E5D564114BE6D6A00DB58A9 /* ELCAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAssetCell.h; sourceTree = "<group>"; };
+		2E5D564214BE6D6A00DB58A9 /* ELCAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAssetCell.m; sourceTree = "<group>"; };
+		2E5D564314BE6D6A00DB58A9 /* ELCAssetPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELCAssetPicker.xib; sourceTree = "<group>"; };
+		2E5D564414BE6D6A00DB58A9 /* ELCAssetTablePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAssetTablePicker.h; sourceTree = "<group>"; };
+		2E5D564514BE6D6A00DB58A9 /* ELCAssetTablePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAssetTablePicker.m; sourceTree = "<group>"; };
+		2E5D564614BE6D6A00DB58A9 /* ELCAssetTablePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELCAssetTablePicker.xib; sourceTree = "<group>"; };
+		2E5D564714BE6D6A00DB58A9 /* ELCImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCImagePickerController.h; sourceTree = "<group>"; };
+		2E5D564814BE6D6A00DB58A9 /* ELCImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCImagePickerController.m; sourceTree = "<group>"; };
+		2E5D564914BE6D6A00DB58A9 /* ELCImagePickerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELCImagePickerController.xib; sourceTree = "<group>"; };
+		2E5D564A14BE6D6A00DB58A9 /* ELCImagePickerDemoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCImagePickerDemoAppDelegate.h; sourceTree = "<group>"; };
+		2E5D564B14BE6D6A00DB58A9 /* ELCImagePickerDemoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCImagePickerDemoAppDelegate.m; sourceTree = "<group>"; };
+		2E5D564C14BE6D6A00DB58A9 /* ELCImagePickerDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCImagePickerDemoViewController.h; sourceTree = "<group>"; };
+		2E5D564D14BE6D6A00DB58A9 /* ELCImagePickerDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCImagePickerDemoViewController.m; sourceTree = "<group>"; };
+		2E5D564E14BE6D6A00DB58A9 /* Overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Overlay.png; sourceTree = "<group>"; };
+		2E5D564F14BE6D6A00DB58A9 /* Overlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Overlay@2x.png"; sourceTree = "<group>"; };
+		2E5D565D14BE6FF600DB58A9 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		2EEAEABE14C59DE20099D57E /* MyTapGR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTapGR.h; sourceTree = "<group>"; };
+		2EEAEABF14C59DE20099D57E /* MyTapGR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTapGR.m; sourceTree = "<group>"; };
+		56055A0314BFD952007CB814 /* luckd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = luckd.png; sourceTree = "<group>"; };
+		56055A0914C012FA007CB814 /* luckp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = luckp.png; sourceTree = "<group>"; };
+		56055A1514C023FA007CB814 /* wjx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wjx.png; sourceTree = "<group>"; };
+		56055A1B14C025DC007CB814 /* wjx1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wjx1.png; sourceTree = "<group>"; };
+		56055A1D14C0266A007CB814 /* 标志2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标志2.png"; sourceTree = "<group>"; };
+		565CCDF614BFCD5D0011373F /* pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic.png; sourceTree = "<group>"; };
+		565CCDF914BFCDA20011373F /* picd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picd.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E5D560E14BE65E600DB58A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E5D565E14BE6FF600DB58A9 /* AssetsLibrary.framework in Frameworks */,
+				2E5D561614BE65E600DB58A9 /* UIKit.framework in Frameworks */,
+				2E5D561814BE65E600DB58A9 /* Foundation.framework in Frameworks */,
+				2E5D561A14BE65E600DB58A9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E5D560614BE65E600DB58A9 = {
+			isa = PBXGroup;
+			children = (
+				565CCDFB14BFCDDD0011373F /* image */,
+				2E5D561B14BE65E600DB58A9 /* luckyboy */,
+				2E5D561414BE65E600DB58A9 /* Frameworks */,
+				2E5D561214BE65E600DB58A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E5D561214BE65E600DB58A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E5D561114BE65E600DB58A9 /* luckboy2012.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E5D561414BE65E600DB58A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E5D565D14BE6FF600DB58A9 /* AssetsLibrary.framework */,
+				2E5D561514BE65E600DB58A9 /* UIKit.framework */,
+				2E5D561714BE65E600DB58A9 /* Foundation.framework */,
+				2E5D561914BE65E600DB58A9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E5D561B14BE65E600DB58A9 /* luckyboy */ = {
+			isa = PBXGroup;
+			children = (
+				2E5D563B14BE6D6A00DB58A9 /* Classes */,
+				2E5D562414BE65E700DB58A9 /* LuckboyAppDelegate.h */,
+				2E5D562514BE65E700DB58A9 /* LuckboyAppDelegate.m */,
+				2E5D562714BE65E700DB58A9 /* LuckboyMainViewController.h */,
+				2E5D562814BE65E700DB58A9 /* LuckboyMainViewController.m */,
+				2E5D562A14BE65E700DB58A9 /* LuckboyFlipsideViewController.h */,
+				2E5D562B14BE65E700DB58A9 /* LuckboyFlipsideViewController.m */,
+				2E5D562D14BE65E700DB58A9 /* LuckboyMainViewController_iPhone.xib */,
+				2E5D563014BE65E700DB58A9 /* LuckboyMainViewController_iPad.xib */,
+				2E5D563314BE65E700DB58A9 /* LuckboyFlipsideViewController.xib */,
+				2E5D561C14BE65E600DB58A9 /* Supporting Files */,
+				2EEAEABE14C59DE20099D57E /* MyTapGR.h */,
+				2EEAEABF14C59DE20099D57E /* MyTapGR.m */,
+			);
+			path = luckyboy;
+			sourceTree = "<group>";
+		};
+		2E5D561C14BE65E600DB58A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E5D561D14BE65E600DB58A9 /* luckboy2012-Info.plist */,
+				2E5D561E14BE65E600DB58A9 /* InfoPlist.strings */,
+				2E5D562114BE65E700DB58A9 /* main.m */,
+				2E5D562314BE65E700DB58A9 /* luckboy2012-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E5D563B14BE6D6A00DB58A9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2E5D563C14BE6D6A00DB58A9 /* ELCAlbumPickerController.h */,
+				2E5D563D14BE6D6A00DB58A9 /* ELCAlbumPickerController.m */,
+				2E5D563E14BE6D6A00DB58A9 /* ELCAlbumPickerController.xib */,
+				2E5D563F14BE6D6A00DB58A9 /* ELCAsset.h */,
+				2E5D564014BE6D6A00DB58A9 /* ELCAsset.m */,
+				2E5D564114BE6D6A00DB58A9 /* ELCAssetCell.h */,
+				2E5D564214BE6D6A00DB58A9 /* ELCAssetCell.m */,
+				2E5D564314BE6D6A00DB58A9 /* ELCAssetPicker.xib */,
+				2E5D564414BE6D6A00DB58A9 /* ELCAssetTablePicker.h */,
+				2E5D564514BE6D6A00DB58A9 /* ELCAssetTablePicker.m */,
+				2E5D564614BE6D6A00DB58A9 /* ELCAssetTablePicker.xib */,
+				2E5D564714BE6D6A00DB58A9 /* ELCImagePickerController.h */,
+				2E5D564814BE6D6A00DB58A9 /* ELCImagePickerController.m */,
+				2E5D564914BE6D6A00DB58A9 /* ELCImagePickerController.xib */,
+				2E5D564A14BE6D6A00DB58A9 /* ELCImagePickerDemoAppDelegate.h */,
+				2E5D564B14BE6D6A00DB58A9 /* ELCImagePickerDemoAppDelegate.m */,
+				2E5D564C14BE6D6A00DB58A9 /* ELCImagePickerDemoViewController.h */,
+				2E5D564D14BE6D6A00DB58A9 /* ELCImagePickerDemoViewController.m */,
+				2E5D564E14BE6D6A00DB58A9 /* Overlay.png */,
+				2E5D564F14BE6D6A00DB58A9 /* Overlay@2x.png */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		565CCDFB14BFCDDD0011373F /* image */ = {
+			isa = PBXGroup;
+			children = (
+				56055A1D14C0266A007CB814 /* 标志2.png */,
+				56055A1B14C025DC007CB814 /* wjx1.png */,
+				56055A1514C023FA007CB814 /* wjx.png */,
+				56055A0914C012FA007CB814 /* luckp.png */,
+				56055A0314BFD952007CB814 /* luckd.png */,
+				565CCDF914BFCDA20011373F /* picd.png */,
+				565CCDF614BFCD5D0011373F /* pic.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E5D561014BE65E600DB58A9 /* luckboy2012 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E5D563814BE65E700DB58A9 /* Build configuration list for PBXNativeTarget "luckboy2012" */;
+			buildPhases = (
+				2E5D560D14BE65E600DB58A9 /* Sources */,
+				2E5D560E14BE65E600DB58A9 /* Frameworks */,
+				2E5D560F14BE65E600DB58A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = luckboy2012;
+			productName = luckyboy;
+			productReference = 2E5D561114BE65E600DB58A9 /* luckboy2012.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E5D560814BE65E600DB58A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 2E5D560B14BE65E600DB58A9 /* Build configuration list for PBXProject "luckboy2012" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2E5D560614BE65E600DB58A9;
+			productRefGroup = 2E5D561214BE65E600DB58A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E5D561014BE65E600DB58A9 /* luckboy2012 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E5D560F14BE65E600DB58A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E5D562014BE65E600DB58A9 /* InfoPlist.strings in Resources */,
+				2E5D562F14BE65E700DB58A9 /* LuckboyMainViewController_iPhone.xib in Resources */,
+				2E5D563214BE65E700DB58A9 /* LuckboyMainViewController_iPad.xib in Resources */,
+				2E5D563514BE65E700DB58A9 /* LuckboyFlipsideViewController.xib in Resources */,
+				2E5D565114BE6D6A00DB58A9 /* ELCAlbumPickerController.xib in Resources */,
+				2E5D565414BE6D6A00DB58A9 /* ELCAssetPicker.xib in Resources */,
+				2E5D565614BE6D6A00DB58A9 /* ELCAssetTablePicker.xib in Resources */,
+				2E5D565814BE6D6A00DB58A9 /* ELCImagePickerController.xib in Resources */,
+				2E5D565B14BE6D6A00DB58A9 /* Overlay.png in Resources */,
+				2E5D565C14BE6D6A00DB58A9 /* Overlay@2x.png in Resources */,
+				565CCDF714BFCD5D0011373F /* pic.png in Resources */,
+				565CCDFA14BFCDA20011373F /* picd.png in Resources */,
+				56055A0414BFD952007CB814 /* luckd.png in Resources */,
+				56055A0A14C012FA007CB814 /* luckp.png in Resources */,
+				56055A1814C023FA007CB814 /* wjx.png in Resources */,
+				56055A1C14C025DC007CB814 /* wjx1.png in Resources */,
+				56055A1E14C0266A007CB814 /* 标志2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E5D560D14BE65E600DB58A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E5D562214BE65E700DB58A9 /* main.m in Sources */,
+				2E5D562614BE65E700DB58A9 /* LuckboyAppDelegate.m in Sources */,
+				2E5D562914BE65E700DB58A9 /* LuckboyMainViewController.m in Sources */,
+				2E5D562C14BE65E700DB58A9 /* LuckboyFlipsideViewController.m in Sources */,
+				2E5D565014BE6D6A00DB58A9 /* ELCAlbumPickerController.m in Sources */,
+				2E5D565214BE6D6A00DB58A9 /* ELCAsset.m in Sources */,
+				2E5D565314BE6D6A00DB58A9 /* ELCAssetCell.m in Sources */,
+				2E5D565514BE6D6A00DB58A9 /* ELCAssetTablePicker.m in Sources */,
+				2E5D565714BE6D6A00DB58A9 /* ELCImagePickerController.m in Sources */,
+				2E5D565914BE6D6A00DB58A9 /* ELCImagePickerDemoAppDelegate.m in Sources */,
+				2E5D565A14BE6D6A00DB58A9 /* ELCImagePickerDemoViewController.m in Sources */,
+				2EEAEAC014C59DE20099D57E /* MyTapGR.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E5D561E14BE65E600DB58A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E5D561F14BE65E600DB58A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2E5D562D14BE65E700DB58A9 /* LuckboyMainViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E5D562E14BE65E700DB58A9 /* en */,
+			);
+			name = LuckboyMainViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		2E5D563014BE65E700DB58A9 /* LuckboyMainViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E5D563114BE65E700DB58A9 /* en */,
+			);
+			name = LuckboyMainViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		2E5D563314BE65E700DB58A9 /* LuckboyFlipsideViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E5D563414BE65E700DB58A9 /* en */,
+			);
+			name = LuckboyFlipsideViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E5D563614BE65E700DB58A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 宇飞 赵 (TELY47S48E)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "63FF9BCC-AD20-4F95-A8BB-923E8A1E60A8";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E5D563714BE65E700DB58A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E5D563914BE65E700DB58A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Qiang Wang (7FRBY34VL4)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "luckyboy/luckboy2012-Prefix.pch";
+				INFOPLIST_FILE = "luckyboy/luckboy2012-Info.plist";
+				PRODUCT_NAME = luckboy2012;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "184F8805-80EC-4361-AC1C-D20643D01FB6";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2E5D563A14BE65E700DB58A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "luckyboy/luckboy2012-Prefix.pch";
+				INFOPLIST_FILE = "luckyboy/luckboy2012-Info.plist";
+				PRODUCT_NAME = luckboy2012;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E5D560B14BE65E600DB58A9 /* Build configuration list for PBXProject "luckboy2012" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E5D563614BE65E700DB58A9 /* Debug */,
+				2E5D563714BE65E700DB58A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E5D563814BE65E700DB58A9 /* Build configuration list for PBXNativeTarget "luckboy2012" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E5D563914BE65E700DB58A9 /* Debug */,
+				2E5D563A14BE65E700DB58A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E5D560814BE65E600DB58A9 /* Project object */;
+}
