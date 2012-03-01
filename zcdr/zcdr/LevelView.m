@@ -168,7 +168,7 @@
     
     CGContextRef context=UIGraphicsGetCurrentContext();
     
-#define IMAGE_DELTA_MIN 5
+#define IMAGE_DELTA_MIN 1
     
     int maxw=(self.bounds.size.width-(colnum+1)*IMAGE_DELTA_MIN)/colnum;
     int maxh=(self.bounds.size.height-(rownum+1)*IMAGE_DELTA_MIN)/rownum;

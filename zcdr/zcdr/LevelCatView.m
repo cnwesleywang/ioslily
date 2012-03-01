@@ -215,7 +215,7 @@ static void addRoundedRectToPath(CGContextRef context, CGRect rect, float ovalWi
 - (void)drawRect:(CGRect)rect
 {
     
-#define IMAGE_DELTA_MIN 5
+#define IMAGE_DELTA_MIN 2
     
     int maxw=(self.bounds.size.width-(ZCDR_COL_NUM+1)*IMAGE_DELTA_MIN)/ZCDR_COL_NUM;
     int maxh=(self.bounds.size.height-(ZCDR_ROW_NUM+1)*IMAGE_DELTA_MIN)/ZCDR_ROW_NUM;
